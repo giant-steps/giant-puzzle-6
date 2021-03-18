@@ -1,6 +1,6 @@
 import numpy as np
 
-# n é o número de dimensões e L2 é a norma utilizada
+# n é o número de dimensões e L2 é a norma utilizada. O código também permite mudar a norma
 for (n, norm_type) in [(3, "L2"), (7, "L2")]:
     total_vertices = int(2**n)
     A = np.zeros(shape = (total_vertices, total_vertices)) # Matriz com os coeficientes do sistema linear
